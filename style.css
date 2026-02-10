@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com');
+/* Other CSS rules follow below */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    overflow: hidden;
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+#doggo {
+    width: 250px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#happyDoggo {
+    width: 250px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#qq {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#invitation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#success {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#successMsg {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#qq {
+    color: black;
+}
+
+#yay {
+    background: green;
+    color: whitesmoke;
+    border-radius: 2px;
+    font-size: 1.2em;
+    padding: 0.6em 1.2em;
+}
+
+#nay {
+    background: red;
+    color: whitesmoke;
+    border-radius: 2px;
+    font-size: 1.2em;
+    padding: 0.6em 1.2em;
+}
